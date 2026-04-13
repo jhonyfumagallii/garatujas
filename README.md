@@ -199,13 +199,12 @@ Os atributos servem para:
 * mudar o **comportamento**
 * conectar com **CSS ou JavaScript**
 * melhorar a **acessibilidade**
+* Atributos são “configurações” das tags.
+
+### Lista de todos os atributos HTML
+Aqui está um link com todos os atributos HTML: [MDN Web Docs - Atributos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Attributes) ou [WHATWG HTML Living Standard](https://html.spec.whatwg.org/).
 
 ---
-
-### Resumo
-
-> Atributos são “configurações” das tags.
-
 ---
 
 ## CSS
@@ -382,6 +381,14 @@ HTML:
 
 ### Pseudo-classe
 
+Pseudo-classes são palavras especiais que você adiciona no CSS pra dizer:
+
+“quero mudar o estilo de um elemento em uma situação específica”
+
+Ou seja: não muda sempre… só quando algo acontece.
+
+### Exemplos
+
 CSS:
 
 ```css
@@ -519,4 +526,3 @@ HTML:
 * CSS → aparência visual
 
 Ambos são essenciais para criar páginas web funcionais e organizadas.
-
