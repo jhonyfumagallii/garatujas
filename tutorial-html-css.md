@@ -202,9 +202,9 @@ Os atributos servem para:
 * Atributos são “configurações” das tags.
 
 ### Lista de todos os atributos HTML
+Aqui está um link com todos os atributos HTML: [MDN Web Docs - Atributos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Attributes) ou [WHATWG HTML Living Standard](https://html.spec.whatwg.org/).
 
-Aqui está um link com todos os atributos HTML: 
-
+---
 ---
 
 ## CSS
