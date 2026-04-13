@@ -381,6 +381,14 @@ HTML:
 
 ### Pseudo-classe
 
+Pseudo-classes são palavras especiais que você adiciona no CSS pra dizer:
+
+“quero mudar o estilo de um elemento em uma situação específica”
+
+Ou seja: não muda sempre… só quando algo acontece.
+
+### Exemplos
+
 CSS:
 
 ```css
