@@ -199,12 +199,11 @@ Os atributos servem para:
 * mudar o **comportamento**
 * conectar com **CSS ou JavaScript**
 * melhorar a **acessibilidade**
+* Atributos são “configurações” das tags.
 
----
+### Lista de todos os atributos HTML
 
-### Resumo
-
-> Atributos são “configurações” das tags.
+Aqui está um link com todos os atributos HTML: 
 
 ---
 
