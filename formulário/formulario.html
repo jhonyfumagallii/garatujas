@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <main>
+        <h1>Formulário de Candidatura a Engenheiro de Software</h1>
+        <form method="POST" autocomplete="on">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="nome-linha">
+                    <div class="nome-grupo">
+                        <label for="nome">Nome:<span class="required">*</span></label>
+                        <input 
+                            type="text"
+                            name="nome"
+                            id="nome"
+                            autocomplete="given-name"
+                            required>
+                    </div>
+                    <div class="nome-grupo">
+                        <label for="sobrenome">Sobrenome:<span class="required">*</span></label>
+                        <input
+                            type="text"
+                            name="sobrenome"
+                            id="sobrenome"
+                            autocomplete="family-name"
+                            required>
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Seu e-mail:<span class="required">*</span></label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="exemplo@email.com"
+                        autocomplete="email"
+                        required>
+                </div>
+                <div>
+                    <label for="tel">Seu número de telefone:<span class="required">*</span></label>
+                    <input
+                        type="tel"
+                        name="tel"
+                        id="tel"
+                        autocomplete="tel"
+                        placeholder="DD 99999-9999"
+                        pattern="\d{2}\s\d{4,5}-\d{4}"
+                        required>
+                </div>
+                <div>
+                    <label for="sexo">Sexo:<span class="required">*</span></label>
+                    <select
+                        name="sexo"
+                        id="sexo"
+                        required>
+                            <option value="" disabled selected hidden>Selecione uma opção</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="na">Prefiro não dizer</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div>
+                <label for="motivo">Por que você acha que seria uma boa opção para nossa equipe?<span class="required">*</span></label>
+                <textarea
+                    id="motivo"
+                    name="motivo"
+                    placeholder="Sua mensagem aqui..."
+                    required></textarea>
+            </div>
+            <div>
+                <label for="motivacao">O que mais te entusiasma neste trabalho?<span class="required">*</span></label>
+                <textarea
+                    id="motivacao"
+                    name="motivacao"
+                    placeholder="Sua mensagem aqui..."
+                    required></textarea>
+            </div>
+            <div>
+                <label for="curriculo">Envie seu currículo, por favor.<span class="required">*</span></label>
+                <input
+                    type="file"
+                    name="curriculo"
+                    id="curriculo"
+                    required
+                    accept=".pdf,.doc,.docx">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
