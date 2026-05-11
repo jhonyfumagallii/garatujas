@@ -2,7 +2,7 @@
 
 ## Importante!!
 
-Fiz esse garatuja do jeito que eu acredito que aprenderia melhor caso fosse estudar esse conteúdo. Eu costumo absorver mais quando a explicação é feita de forma mais didática e detalhada, quase como se estivesse ensinando alguém que nunca viu o assunto antes, em vez de apenas descrever o que foi apresentado na aula. Desse jeito, consigo entender melhor a lógica e o funcionamento do conteúdo, e não só decorar informações.
+Fiz esse garatuja do jeito que acredito que aprenderia melhor esse conteúdo caso estivesse estudando por conta própria. Eu costumo absorver mais quando a explicação é feita de forma didática e detalhada, quase como se estivesse ensinando alguém que nunca teve contato com o assunto antes, em vez de apenas descrever exatamente o que foi apresentado na aula. Assim, consigo entender melhor a lógica e o funcionamento das coisas, e não só decorar informações. Vale lembrar que todo o conteúdo presente aqui foi baseado no que foi visto e explicado durante as aulas, apenas reorganizado e reescrito da forma que fez mais sentido para o meu aprendizado.
 
 ## Foco da disciplina
 
