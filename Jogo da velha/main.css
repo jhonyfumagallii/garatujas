@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: burlywood;
+}
+
+div.grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 85vmin;
+    height: 85vmin;
+    padding: 30px;
+    gap: 5px;
+    border: 6px solid rgb(201, 154, 93);
+    border-radius: 10px;
+    background-color: rgb(240, 201, 153);
+}
+button {
+    border-radius: 10px;
+}
+button:hover {
+    background-color:lightgrey;
+    transform: scale(1.03);
+}
+button:active{
+    transform: scale(0.97);
+}
