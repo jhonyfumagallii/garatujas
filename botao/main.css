@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    display:grid;
+    place-items: center;
+    align-content: center;
+    gap: 5px;
+    background-color: gray;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.d1 {
+    display: flex;
+    align-items: center;
+    border-radius:100px;
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.d2 {
+    border-radius:100px; 
+    width: 90px;
+    height: 90px; 
+    background-color: red;
+    transition: margin-left ease 1s, background-color 0.4s ease;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.d2.ativo {
+    margin-left: 405px;
+    background-color: green;
+}
