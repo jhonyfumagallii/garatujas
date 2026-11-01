@@ -1,24 +1,43 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='pt-br'>
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
+    <title>Controle de Finanças</title>
     <link rel='stylesheet' href='main.css'>
     <script async defer src="main.js"></script>
 </head>
 <body>
     
     <form>
-        <input name="item" type="text">
-        <button>adicionar</button>
+        <label for="descrição">Descrição</label>
+        <label for="valor">Valor</label>
+        <label for="tipo">Tipo</label>
+        <input class="form-control" name="descrição" id="descrição" type="text" placeholder="Descrição" autocomplete="off">
+        <input class="form-control" name="valor" id="valor" type="number" min="0" step="0.01" placeholder="0,00">
+        <select class="form-control" name="Tipo" id="tipo">
+            <option value="Entrada">Entrada</option>
+            <option value="Saída">Saída</option>
+        </select>
+        <button id="adicionar" class="form-control" name="adicionar">
+            <span class="mais">+</span> Adicionar
+        </button>
     </form>
 
-    <ul>
-        <li>
-            <button>remover</button>
-            <span>tarefa de exemplo</span>
-        </li>
+    <ul id="l1">
+        <h2>Entradas</h2>
     </ul>
+
+    <ul id="l2">
+        <h2>Saídas</h2>
+    </ul>
+
+    <div id="saldo" class="zero">
+        <span>Saldo atual</span>
+        <div>
+            <span class="currency">R$</span>
+            <span id="saldoTexto">0,00</span>
+        </div>
+    </div>
 </body>
 </html>
